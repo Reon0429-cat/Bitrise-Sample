@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Bitrise-Sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AB9B55632782D61E00F6055F"
+               BuildableName = "Bitrise-SampleUITests.xctest"
+               BlueprintName = "Bitrise-SampleUITests"
+               ReferencedContainer = "container:Bitrise-Sample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "AB9B55592782D61E00F6055F"
                BuildableName = "Bitrise-SampleTests.xctest"
                BlueprintName = "Bitrise-SampleTests"
-               ReferencedContainer = "container:Bitrise-Sample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB9B55632782D61E00F6055F"
-               BuildableName = "Bitrise-SampleUITests.xctest"
-               BlueprintName = "Bitrise-SampleUITests"
                ReferencedContainer = "container:Bitrise-Sample.xcodeproj">
             </BuildableReference>
          </TestableReference>
