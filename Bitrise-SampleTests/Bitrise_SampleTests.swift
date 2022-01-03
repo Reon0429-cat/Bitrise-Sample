@@ -13,7 +13,7 @@ class Bitrise_SampleTests: XCTestCase {
     func testAdd() {
         var age = 21
         age += 1
-        XCTAssertEqual(age, 22)
+        XCTAssertEqual(age, 20)
     }
 
     override func setUpWithError() throws {
